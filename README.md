@@ -4,6 +4,8 @@
 
 _(Or the numbers round from Countdown, if you prefer)_
 
+![Numbers Game](https://github.com/joshfarrant/digits-solver/assets/6840861/6441c0ee-dc89-4ecf-ab9a-ef7ad5996afc)
+
 ## Running the app
 
 This is a pretty straight-forward SvelteKit app, check the scripts in the `package.json` for how to run it.
