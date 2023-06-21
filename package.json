@@ -1,7 +1,13 @@
 {
   "name": "digits-solver",
-  "version": "0.0.1",
-  "private": true,
+  "version": "1.0.0",
+  "homepage": "https://digits.monster",
+  "private": false,
+  "author": {
+    "name": "Josh Farrant",
+    "email": "josh@farrant.me",
+    "url": "https://farrant.me"
+  },
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
@@ -18,7 +24,6 @@
     "@sveltejs/adapter-auto": "^2.0.0",
     "@sveltejs/kit": "^1.5.0",
     "@tailwindcss/forms": "^0.5.3",
-    "@types/lodash": "^4.14.195",
     "@typescript-eslint/eslint-plugin": "^5.45.0",
     "@typescript-eslint/parser": "^5.45.0",
     "autoprefixer": "^10.4.14",
@@ -41,7 +46,6 @@
     "@svelteuidev/composables": "^0.13.0",
     "clsx": "^1.2.1",
     "date-fns": "^2.30.0",
-    "lodash": "^4.17.21",
     "svelte-confetti": "^1.2.2",
     "svelte-meta-tags": "^2.8.0"
   }
