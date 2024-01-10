@@ -174,7 +174,7 @@
       {#each puzzle.targets as puzzleTarget, i}
         <button
           class={clsx(
-            'group relative min-w-0 flex-1 overflow-hidden bg-white py-4 px-4 text-center text-sm font-medium hover:bg-badger-50 focus:z-10',
+            'group relative min-w-0 flex-1 overflow-hidden bg-white p-4 text-center text-sm font-medium hover:bg-badger-50 focus:z-10',
             i === puzzleIdx ? 'text-badger-900' : 'text-badger-500 hover:text-badger-700'
           )}
           on:click={() => {

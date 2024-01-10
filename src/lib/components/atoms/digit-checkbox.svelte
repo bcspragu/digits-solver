@@ -22,12 +22,12 @@
   $: fontSize = getFontSize(label.length);
 </script>
 
-<div class={clsx('w-20 h-20', $$restProps.class)}>
+<div class={clsx('h-20 w-20', $$restProps.class)}>
   <input {id} class="peer sr-only" type="checkbox" bind:checked on:change />
   <label
     for={id}
     class={clsx(
-      'cursor-pointer w-full h-full rounded-full flex items-center justify-center border-badger-900 border-dashed border-3 font-bold nice-peer-focus peer-checked:bg-lime-600 peer-checked:border-none peer-checked:text-white select-none',
+      'nice-peer-focus flex h-full w-full cursor-pointer select-none items-center justify-center rounded-full border-3 border-dashed border-badger-900 font-bold peer-checked:border-none peer-checked:bg-lime-600 peer-checked:text-white',
       fontSize
     )}
   >

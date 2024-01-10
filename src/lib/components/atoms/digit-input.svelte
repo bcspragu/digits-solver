@@ -8,7 +8,7 @@
 
 <div
   class={clsx(
-    'w-20 h-20 border-badger-900 border-dashed border-3 rounded-full flex items-center justify-center focus-within:border-primary-500 selection:text-primary-600',
+    'flex h-20 w-20 items-center justify-center rounded-full border-3 border-dashed border-badger-900 selection:text-primary-600 focus-within:border-primary-500',
     $$restProps.class
   )}
 >
