@@ -218,7 +218,7 @@
       <div class="grid grid-cols-3 grid-rows-2 gap-4">
         {#each numbers as number, i}
           {#if number !== -1}
-            <div class={clsx('z-20', getGridClasses(i))} out:move>
+            <div class={clsx('z-20', getGridClasses(i))} out:move|global>
               <DigitCheckbox
                 class={'justify-self-center'}
                 id="number-{i}"
