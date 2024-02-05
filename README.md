@@ -1,5 +1,12 @@
 # Digits Solver
 
+The main changes in this fork are:
+
+- Adding a Dockerfile (against the Node adapter) for self-hosting
+- Updating to Svelte 4 and SvelteKit 2
+
+I might also add a few more bells and whistles, like something that generates new games each day, not sure what (if any) nuances there are to doing something like that well.
+
 ## An accessible version of the New York Times game Digits
 
 _(Or the numbers round from Countdown, if you prefer)_
